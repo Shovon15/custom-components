@@ -10,6 +10,7 @@ import Marquee from "./components/marquee/Marquee";
 import TechSvg from "./components/svg/TechSvg";
 import Image from "next/image";
 import IntervalApiCall from "./components/IntervalApiCall/IntervalApiCall";
+import UserAvatar from "./components/userAvatar/UserAvatar";
 
 const HomePage = () => {
   return (
@@ -44,6 +45,10 @@ const HomePage = () => {
       /> */}
 
       <IntervalApiCall />
+
+      <div className="my-5 flex items-center justify-center">
+        <UserAvatar />
+      </div>
     </div>
   );
 };
