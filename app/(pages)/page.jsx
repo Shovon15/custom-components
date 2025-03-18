@@ -10,6 +10,9 @@ import Marquee from "./components/marquee/Marquee";
 import TechSvg from "./components/svg/TechSvg";
 import Image from "next/image";
 import IntervalApiCall from "./components/IntervalApiCall/IntervalApiCall";
+import Chart from "./components/chart/Chart";
+import InteractivePieChart from "./components/chart/CustopPieChart";
+import LineChartWithHighlight from "./components/chart/LineChart";
 
 const HomePage = () => {
   return (
@@ -43,7 +46,11 @@ const HomePage = () => {
         height={1000}
       /> */}
 
-      <IntervalApiCall />
+      {/* <IntervalApiCall /> */}
+
+      {/* <Chart /> */}
+      <InteractivePieChart />
+      <LineChartWithHighlight />
     </div>
   );
 };
