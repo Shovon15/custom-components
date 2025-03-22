@@ -14,6 +14,8 @@ import Chart from "./components/chart/Chart";
 import InteractivePieChart from "./components/chart/CustopPieChart";
 import LineChartWithHighlight from "./components/chart/LineChart";
 import UserAvatar from "./components/userAvatar/UserAvatar";
+import Canvas from "./components/canvas/Canvas";
+import Exercies from "./components/canvas/Exercies";
 
 const HomePage = () => {
   return (
@@ -50,12 +52,13 @@ const HomePage = () => {
       {/* <IntervalApiCall /> */}
 
       {/* <Chart /> */}
-      <InteractivePieChart />
-      <LineChartWithHighlight />
+      {/* <InteractivePieChart /> */}
+      {/* <LineChartWithHighlight /> */}
 
-
-      <div className="my-5 flex items-center justify-center">
-        <UserAvatar />
+      <div className=" flex items-center justify-center min-h-screen">
+        {/* <UserAvatar /> */}
+        {/* <Canvas /> */}
+        <Exercies />
       </div>
     </div>
   );
