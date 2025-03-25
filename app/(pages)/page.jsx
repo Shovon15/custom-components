@@ -52,14 +52,16 @@ const HomePage = () => {
       {/* <IntervalApiCall /> */}
 
       {/* <Chart /> */}
-      {/* <InteractivePieChart /> */}
-      {/* <LineChartWithHighlight /> */}
+
+      <LineChartWithHighlight />
 
       <div className=" flex items-center justify-center min-h-screen">
         {/* <UserAvatar /> */}
         {/* <Canvas /> */}
-        <Exercies />
+        {/* <Exercies /> */}
       </div>
+
+      {/* <InteractivePieChart /> */}
     </div>
   );
 };
